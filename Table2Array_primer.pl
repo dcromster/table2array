@@ -12,12 +12,12 @@ my $table = new Table2Array('string' => $test_table);
 my $cells_data = $table->get_data();
 print Dumper($cells_data);
 
-#~ #getting data from cells properties
-#~ my $table = new Table2Array('string' => $test_table);
-#~ my $tags_data = $table->get_info();
-#~ print Dumper($tags_data);
-#~
-#~ # Getting all data from table
-#~ my $table = new Table2Array('string' => $test_table);
-#~ my $tags_data = $table->get_all();
-#~ print Dumper($tags_data);
+#getting data from cells properties
+my $table = new Table2Array('string' => $test_table);
+my $tags_data = $table->get_info();
+print Dumper($tags_data);
+
+# Getting all data from table
+my $table = new Table2Array('string' => $test_table);
+my $tags_data = $table->get_all();
+print Dumper($tags_data);

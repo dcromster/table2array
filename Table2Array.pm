@@ -18,8 +18,8 @@ sub get_data($) {
     my($self) = @_;
     my $string = $self->{'string'};
 
-    my @table_array; # массив с данными таблицы
-    my $row_counter = 0; # счётчик рядов
+    my @table_array;
+    my $row_counter = 0;
 
     $string =~ s/\n//igm;
 

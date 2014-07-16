@@ -7,7 +7,7 @@ With this Perl module You can easy parse table and get the result suitable for u
 
 What You get:
 -------------
-* Array of arrays with data between <td> and </td>;
+* Array of arrays with data between td's;
 * Array of hashes with data inside <td> for 'get_info' method;
 * Hash of hashes with results of 'get_info' and 'get_data' methods'.
 
@@ -48,3 +48,9 @@ How to use #2:
     my $tags_data = $table->get_all();
     print Dumper($tags_data);
 
+Contact:
+--------
+
+Feel free to contact with me:
+* twsitter: @dcromster
+* e-mail: dcromster@gmail.com
