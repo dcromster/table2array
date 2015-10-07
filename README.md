@@ -9,7 +9,7 @@ What You get:
 -------------
 * Array of arrays with data between td's;
 * Array of hashes with data inside <td> for 'get_info' method;
-* Hash of hashes with results of 'get_info' and 'get_data' methods'.
+* Hash of hashes with results of 'get_info' and 'get_data' methods.
 
 
 How to use #1:
@@ -52,5 +52,5 @@ Contact:
 --------
 
 Feel free to contact with me:
-* twsitter: @dcromster
+* twitter: @dcromster
 * e-mail: dcromster@gmail.com
